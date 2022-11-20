@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#index_div_one {
+    background-color: blue;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+#game_div_one {
+    background-color: red;
+    height: auto;
+    width: 80%;
+    margin: auto;
+
+}
+
+.question-area{
+    background-color: rgb(16, 19, 20) ;
+  }
+  .question-panel{
+    background-color: rgb(179, 206, 56);
+    color:#F6F3E8ff;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    height: 30vh;
+  }
+  .question-content{
+    font-size: 30px;
+    padding:10px;
+    font-weight: 400; 
+  }
+
+  .key-style {
+    height: 150px;
+    min-width: 50px;
+  }
+
+  /* --------------------------------------------> media queries */
+@media only screen and (max-width: 800px){
+    .question-content {
+      font-size: 20px;
+      margin-top: 5px;
+     
+    }
+}
+
+.answers{
+    background-color: #F6F3E8ff;
+    font-family: 'Roboto', sans-serif;
+    color: #294A58ff;
+    font-size:20px;
+    margin: 0px 10px;
+    
+    margin-bottom: 10px;
+    height:12vh;
+    padding:15px;
+  }
